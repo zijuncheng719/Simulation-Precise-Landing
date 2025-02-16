@@ -1,0 +1,39 @@
+# 桥接配置：Gazebo到ROS 2
+- ros_topic_name: "camera/image_raw"
+  gz_topic_name: "camera"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "ignition.msgs.Image"
+  subscriber_queue: 10
+  publisher_queue: 10
+  lazy: false
+  direction: GZ_TO_ROS
+
+# 桥接配置：ROS 2到Gazebo
+- ros_topic_name: "camera/image_raw"
+  gz_topic_name: "camera"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "ignition.msgs.Image"
+  subscriber_queue: 10
+  publisher_queue: 10
+  lazy: false
+  direction: ROS_TO_GZ
+
+  # 桥接配置：Gazebo到ROS 2
+- ros_topic_name: "camera/camera_info"
+  gz_topic_name: "camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "ignition.msgs.CameraInfo"
+  subscriber_queue: 10
+  publisher_queue: 10
+  lazy: false
+  direction: GZ_TO_ROS
+
+# 桥接配置：ROS 2到Gazebo
+- ros_topic_name: "camera/camera_info"
+  gz_topic_name: "camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "ignition.msgs.CameraInfo"
+  subscriber_queue: 10
+  publisher_queue: 10
+  lazy: false
+  direction: ROS_TO_GZ

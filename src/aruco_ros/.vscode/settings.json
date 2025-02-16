@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cheng/ws_sensor_combined/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages",
+        "/home/cheng/ws_sensor_combined/install/ros2_aruco/lib/python3.10/site-packages",
+        "/home/cheng/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/cheng/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/home/cheng/ws_sensor_combined/install/aruco_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cheng/ws_sensor_combined/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages",
+        "/home/cheng/ws_sensor_combined/install/ros2_aruco/lib/python3.10/site-packages",
+        "/home/cheng/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/cheng/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/home/cheng/ws_sensor_combined/install/aruco_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

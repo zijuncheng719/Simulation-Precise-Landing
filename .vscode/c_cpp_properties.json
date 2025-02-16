@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cheng/mavros2_ws/install/mavros_extras/include/**",
+        "/home/cheng/mavros2_ws/install/mavros/include/**",
+        "/home/cheng/mavros2_ws/install/mavros_msgs/include/**",
+        "/home/cheng/mavros2_ws/install/libmavconn/include/**",
+        "/home/cheng/ws_sensor_combined/install/ros2_aruco_interfaces/include/**",
+        "/home/cheng/ws_sensor_combined/install/px4_ros_com/include/**",
+        "/home/cheng/ws_sensor_combined/install/px4_msgs/include/**",
+        "/home/cheng/ws_sensor_combined/install/aruco_ros/include/**",
+        "/home/cheng/ws_sensor_combined/install/aruco_msgs/include/**",
+        "/home/cheng/ws_sensor_combined/install/aruco/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/cheng/ws_sensor_combined/src/aruco_ros/aruco/include/**",
+        "/home/cheng/ws_sensor_combined/src/aruco_ros/aruco_ros/include/**",
+        "/home/cheng/ws_sensor_combined/src/my_cv_package/include/**",
+        "/home/cheng/ws_sensor_combined/src/px4_ros_com/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
